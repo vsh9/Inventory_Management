@@ -4,5 +4,6 @@ class Student:
         self.age=age
         self.gender=gender
     def info(self):
-        print(f"Name:,{self.name} | Age:,{self.age} | Gender: {self.gender})
-              
+        print(f"Name:,{self.name} | Age:,{self.age} | Gender: {self.gender}")
+ram=Student("Ram",18,'Male')
+ram.info()
