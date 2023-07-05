@@ -24,11 +24,8 @@ class Student:
 s=Student('ram',1234,"2.1")
 print()
 
-
-
-
 #methods (class function)-class methids,static method,instane method
-#__init__ is used to initialize attributes
+#__init__ is used to initialize attributes,it is an instance method
 # instance method=has access to all the attributes and methods
 # class method=can only access class attributes and other class methods
 #static method=dosnt have access to the class attributes or other class/instance methods
@@ -40,3 +37,8 @@ def func_a(self,b,c,d):
     b=self.a
     print()
     return b
+
+#class method
+@classmethod
+def college(cls):
+    print(f"college: {cls.college}")
