@@ -1,0 +1,29 @@
+users - signup,login,profile,logout,user_list
+inventory - restock,display
+cart - add,clear,remove
+order - place order,checkout
+it will be extensible i.e it can be converted to a front end program as well
+
+-----------
+
+framework: helps to ease development of a problem. 
+It gives specific guidelines to make the problem statement easy.
+
+package(__init___.py) --> if this is there then python files are available
+
+framework: ORM-RDBMS --> primarily driven by SQL
+
+ORM --> object relational mapper which helps to write queries in one language without worrying about writing the same code in another language.
+it converts the python code to sql and then executes it.
+
+sqlite
+
+JSON - Javascript object notation --> transfer notations from one language or place to another. it is a dictionary.
+
+File Handeling - to read,write or append code in a file.
+
+---------------
+
+OOPS:object oriented programming
+Classes: blueprint for creating objects,defines attributes
+classes & objects: inheritence,composition,mul-inheritence,mixin,encapsulation
