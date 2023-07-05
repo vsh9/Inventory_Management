@@ -42,3 +42,12 @@ def func_a(self,b,c,d):
 @classmethod
 def college(cls):
     print(f"college: {cls.college}")
+
+#static method
+@staticmethod
+def total_marks(marks_list):
+    total=0
+    for marks in marks_list:
+        total=total+marks
+    print(f"total marks={total}")
+    return total
