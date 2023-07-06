@@ -15,3 +15,15 @@ def create_tables():
     #create tables in sqlite db
     with db:
         db.create_tables([Inventory])
+
+class User(Model):
+    username=CharField(unique=True)
+    password=CharField()
+
+    class Meta:
+        database=db
+    
+def create_tables():
+    #create tables in sqlite db
+    with db:
+        db.create_tables([Inventory,User])
